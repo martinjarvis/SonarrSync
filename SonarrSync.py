@@ -37,7 +37,7 @@ elif not os.path.isfile(settingsFilename):
     sys.exit(0)
 Config.read(settingsFilename)
 
-print(ConfigSectionMap('Sonarr_4k')['rootfolders'].split(';'))
+#print(ConfigSectionMap('Sonarr_4k')['rootfolders'].split(';'))
 #exit()
 
 ########################################################################################################################
