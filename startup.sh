@@ -1,6 +1,6 @@
 #!/bin/bash
 while [ true ]
 do
-python /SonarrSync.py
+python /SonarrSync.py "$@"
 sleep 15m
 done
